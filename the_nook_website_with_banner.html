@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Nook Cafe-Bar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #fff;
+      color: #2c2c2c;
+    }
+    header {
+      background-image: url('https://source.unsplash.com/1600x600/?coffee,cafe');
+      background-size: cover;
+      background-position: center;
+      height: 60vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3.5rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+    }
+    nav {
+      background: #3e2f1c;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+    .section {
+      padding: 3rem 1.5rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+    }
+    .product {
+      flex: 1 1 300px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+    .product img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .product h3 {
+      margin: 1rem;
+      font-size: 1.5rem;
+    }
+    .product p {
+      margin: 0 1rem 1rem;
+      font-size: 1rem;
+    }
+    footer {
+      background: #f5efe8;
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+    }
+    footer a {
+      color: #8c4b2d;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .banner-image img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+  </style>
+</head>
+<body>
+  
+  <div class="banner-image">
+    <img src="banner1.jpg" alt="Banner showing baked goods" />
+  </div>
+
+ 
+  <nav>
+    <a href="#about">About</a>
+    <a href="#menu">Menu</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="section" id="about">
+    <h2>About Us</h2>
+    <p>Welcome to The Nook Cafe-Bar – a cosy, vintage-inspired mobile café lovingly run by Helen & Chloe, a friend duo with a shared passion for homemade baking and heartfelt hospitality.
+
+At The Nook, everything we serve is made from scratch using quality ingredients, time-honoured recipes, and a good pinch of love. From our irresistibly gooey chocolate brownies to our golden oat flapjacks and indulgent cakes, each treat is baked in small batches to ensure freshness and flavour in every bite.
+
+Whether we’re popping up at your local market, serving at a special event, or delivering a custom order, our mission is simple: to spread a little joy through handmade sweetness and warm, welcoming service.
+
+Come say hello, grab a slice, and make yourself at home – wherever The Nook parks up!</p>
+  </section>
+
+  <section class="section" id="menu">
+    <h2>Our Favourites</h2>
+    <div class="products">
+      <div class="product">
+        <img src="brownies.jpg" alt="Chocolate Brownie">
+        <h3>Classic Chocolate Brownie</h3>
+        <p>Rich, gooey and deliciously chocolatey. A timeless treat.</p>
+      </div>
+      <div class="product">
+        <img src="flapjack.jpg" alt="Flapjack">
+        <h3>Golden Oat Flapjack</h3>
+        <p>Sweet, buttery oats with just the right chew.</p>
+      </div>
+      <div class="product">
+        <img src="rockyroad.jpg" alt="Rocky Road">
+        <h3>Rocky Road</h3>
+        <p>A crunchy, chewy mix of chocolate, marshmallows and biscuit.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>We'd love to hear from you! Email us at <a href="mailto:hello@thenookcafebar.co.uk">hello@thenookcafebar.co.uk</a> or follow us on Instagram <a href="https://instagram.com/thenookcafebar" target="_blank">@thenookcafebar</a>.</p>
+  </section>
+
+  <footer>
+    &copy; 2025 The Nook Cafe-Bar | All Rights Reserved
+  </footer>
+</body>
+</html>
